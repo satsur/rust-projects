@@ -1,0 +1,4 @@
+[dependencies.itertools]
+package = "itertools"
+version = "=0.13.0"
+features = ["use_alloc", "use_std"]
