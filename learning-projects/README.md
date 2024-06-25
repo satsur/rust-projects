@@ -5,8 +5,10 @@
 - **Difficulty**: Beginner
 - **Description**: Write a program which finds the factorial of a number entered by the user. (check for all conditions).
 - **Date Completed**: Tuesday, June 25th, 2024
+- **Note**: 
 
 ### 2. Currency Conversion
 - **Difficulty**: Beginner
 - **Description**: Write a program which converts a value entered by the user from one currency to another
 - **Date Completed**: Tuesday, June 25th, 2024
+- **Note**: Also implemented using a struct and HashMap to look up conversion rates, allows for conversion between many different currencies (as long as they are recorded in the HashMap)
