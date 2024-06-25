@@ -5,7 +5,7 @@
 - **Difficulty**: Beginner
 - **Description**: Write a program which finds the factorial of a number entered by the user. (check for all conditions).
 - **Date Completed**: Tuesday, June 25th, 2024
-- **Note**: 
+- **Note**: I accidentally made a fibonacci program before realizing my mistake. This also peaked my interest in number theory, might go down that rabbit hole now.
 
 ### 2. Currency Conversion
 - **Difficulty**: Beginner
