@@ -59,4 +59,4 @@
 - **Difficulty**: Beginner
 - **Description**:  Find the Fifth root of the sum of the squares of the first 100 ODD numbers only.
 - **Date Completed**: Wednesday, June 26th, 2024
-- **Note**: Cool stuff
+- **Note**: Cool stuff (10th program!)
