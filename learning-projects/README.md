@@ -42,3 +42,9 @@
 - **Description**: Prompt the user to guess a randomly-generated number from 1 to 100.
 - **Date Completed**: Wednesday, June 26th, 2024
 - **Note**: Practice with loops and generating random numbers.
+
+### 8. Fibonacci
+- **Difficulty**: Beginner
+- **Description**: Generate fibonacci numbers until a user-entered limit
+- **Date Completed**: Wednesday, June 26th, 2024
+- **Note**: I wish Vec<T> implemented the std::Display trait :(
