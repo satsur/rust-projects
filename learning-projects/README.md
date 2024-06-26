@@ -55,3 +55,8 @@
 - **Date Completed**: Wednesday, June 26th, 2024
 - **Note**: Did some research on how UTF-8 characters are stored
 
+### 10. Fifth Root
+- **Difficulty**: Beginner
+- **Description**:  Find the Fifth root of the sum of the squares of the first 100 ODD numbers only.
+- **Date Completed**: Wednesday, June 26th, 2024
+- **Note**: Cool stuff
