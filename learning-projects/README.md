@@ -48,3 +48,10 @@
 - **Description**: Generate fibonacci numbers until a user-entered limit
 - **Date Completed**: Wednesday, June 26th, 2024
 - **Note**: I wish Vec<T> implemented the std::Display trait :(
+
+### 9. Vowels
+- **Difficulty**: Beginner
+- **Description**:  Given a string, determine how many of the characters are vowels and how many are consonants. Terminate the string when the input character encountered is non-alphabetic.
+- **Date Completed**: Wednesday, June 26th, 2024
+- **Note**: Did some research on how UTF-8 characters are stored
+
