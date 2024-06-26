@@ -24,3 +24,9 @@
 - **Description**: Write a program which uses stars to make a triangle with the most number of stars on the bottom row and the least (1) on the top row. The largest number of stars is entered by the user
 - **Date Completed**: Wednesday, June 26th, 2024
 - **Note**: Basically the same as the topdown triangle program, except the loop is going the other way.
+
+### 5. Odd Triangle
+- **Difficulty**: Beginner
+- **Description**: Write a program which uses stars to make a triangle with the most number of stars on the bottom row and the least (1) on the top row. The number of stars in each row is odd (meaning it is two more than the previous, starting at 1). The largest number of stars is entered by the user. 
+- **Date Completed**: Wednesday, June 26th, 2024
+- **Note**: Basically the same as the bottomup triangle program, except the loop has a step of 2
