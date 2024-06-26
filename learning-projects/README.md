@@ -37,7 +37,7 @@
 - **Date Completed**: Wednesday, June 26th, 2024
 - **Note**: Learned how to generate random numbers.
 
-### 6. Random Function
+### 7. Guessing Game
 - **Difficulty**: Beginner
 - **Description**: Prompt the user to guess a randomly-generated number from 1 to 100.
 - **Date Completed**: Wednesday, June 26th, 2024
