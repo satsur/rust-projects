@@ -18,3 +18,9 @@
 - **Description**: Write a program which uses stars to make a triangle with the most number of stars on the top row and the least (1) on the bottom row. The largest number of stars is entered by the user
 - **Date Completed**: Wednesday, June 26th, 2024
 - **Note**: Found a cool str function called str::repeat(n: usize) which allows you to repeat a string n times (instead of running the String.push method a bunch of times in a for loop)
+
+### 4. Bottomup Triangle
+- **Difficulty**: Beginner
+- **Description**: Write a program which uses stars to make a triangle with the most number of stars on the bottom row and the least (1) on the top row. The largest number of stars is entered by the user
+- **Date Completed**: Wednesday, June 26th, 2024
+- **Note**: Basically the same as the topdown triangle program, except the loop is going the other way.
