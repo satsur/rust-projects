@@ -36,3 +36,9 @@
 - **Description**: Call a different function based on the output of a random number generator.
 - **Date Completed**: Wednesday, June 26th, 2024
 - **Note**: Learned how to generate random numbers.
+
+### 6. Random Function
+- **Difficulty**: Beginner
+- **Description**: Prompt the user to guess a randomly-generated number from 1 to 100.
+- **Date Completed**: Wednesday, June 26th, 2024
+- **Note**: Practice with loops and generating random numbers.
