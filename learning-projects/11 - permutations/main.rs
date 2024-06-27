@@ -18,12 +18,8 @@ fn main() {
 
 // I love iterators so much
 fn get_combinations(word: &String) -> Vec<String> {
-    word.chars()                          // Returns Chars instance
-    .collect::<Vec<char>>()                 // Collects chars into a Vec<char>
-    .into_iter()                            // Turns Vec<char> into Iterator<Item = Vec<char>>
-    .permutations(word.len())               // Returns an iterator adapter which iterates over all permutations of Vec<char> (the word's chars)
-    .collect::<Vec<Vec<char>>>()            // Collects all of these permutations into a Vec<Vec<char>>
-    .iter()                                 // Iterating through each of these Vec<char> (permutations)
+    word.chars()                            // Returns Chars instance which is an Iterator
+    .permutations(word.len())               // Iterating through each of these Vec<char> (permutations)
     .map(|v| v.iter().collect::<String>())  // FnMut closure that, for each Vec<char> permutation, collects those characters and puts them in a String
     .collect()                              // And now, each of these words are collected into a Vec<String> resulting in our final list of permutations
-}
+}   
