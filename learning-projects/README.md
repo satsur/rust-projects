@@ -66,3 +66,9 @@
 - **Description**: Get all possible permutations of a four letter word
 - **Date Completed**: Thursday, June 27th, 2024
 - **Note**: Started experimenting with iterators (i love them so much so far)
+
+### 11. Permutations
+- **Difficulty**: Beginner
+- **Description**: Make a programme that allows the user to input either the radius, diameter, or area of the circle. The programme should then calculate the other 2 based on the input.
+- **Date Completed**: Friday, June 28th, 2024
+- **Note**: Likely not the best way to do this, but I wanted to try out the builder pattern
