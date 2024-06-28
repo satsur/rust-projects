@@ -1,13 +1,11 @@
 use core::fmt::Formatter;
 use std::fmt::{Error, Display};
 
-enum Constants {
-    BoardSize = 9,
-}
+const BOARD_SIZE: u8 = 9;
 
 #[derive(Debug)]
 struct BoardConfiguration {
-    state: [[u8; Constants::BoardSize as usize]; Constants::BoardSize as usize],
+    state: [[u8; BOARD_SIZE as usize]; BOARD_SIZE as usize],
 }
 
 #[derive(Debug)]
@@ -91,6 +89,25 @@ impl Cell {
             possible_values: if fixed { vec![value.unwrap()] } else { (1..=9).collect() }
         }
     }
+    
+    fn could_be(&self, n: &u8) -> bool {
+        self.possible_values.contains(n)
+    }
+    
+    fn remove_from_possible_values(&mut self, n: &u8) {
+        if self.possible_values.contains(n) {
+            let position = self.possible_values.iter().position(|&v| &v == n);
+            if position.is_some() {
+                self.possible_values.remove(position.unwrap());
+            }
+        }
+    }
+    
+    fn add_to_possible_values(&mut self, n: &u8) {
+        if !self.possible_values.contains(n) && *n > 0 && *n < BOARD_SIZE {
+            self.possible_values.push(*n);
+        }
+    }
 }
 
 impl Display for Cell {
@@ -101,7 +118,7 @@ impl Display for Cell {
 }
 
 fn main() {
-    // Board config -> Board state (Vec<Vec<Cell>> -> Stored in Sudoku Board
+    // Board config -> Board state (Vec<Vec<Cell>> -> Stored in SudokuBoard
     let board_config = BoardConfiguration {
         state: [
                 [0, 0, 0, 2, 6, 0, 7, 0, 1],
